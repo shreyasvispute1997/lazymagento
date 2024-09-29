@@ -1,0 +1,35 @@
+{
+  "name": "lazymagento",
+  "displayName": "lazymagento",
+  "description": "Magento Code Snippets to speed up the coding",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "publisher": "shreyasvispute1997",
+  "icon": "icons/logo.png",
+  "author": {
+    "name": "Shreyas Vispute",
+    "email": "shreyas.vispute1997@gmail.com",
+    "url": "https://github.com/shreyasvispute1997"
+  },
+  "repository": {
+    "url": "https://github.com/shreyasvispute1997/lazymagento",
+    "type": "git"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
